@@ -1,0 +1,57 @@
+/*-----RESET-----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+.container {
+    width: 60vw;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+header img {
+    width: 100%;
+}
+
+h1 {
+    color: red;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+header h4 {
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+spam {
+    font-weight: bold
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+ol {
+    margin-left: 5rem;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+footer img{
+    width: 7%;
+}

@@ -60,7 +60,7 @@ body {
 }
 
 .imgCarrosel {
-    width: 75rem;
+    width: 60rem;
 }
 
 /*-----Publicações-----*/
@@ -68,7 +68,7 @@ body {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    width: 75rem;
+    width: 60rem;
     margin: auto;
     color: #777777;
 }
@@ -77,7 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #EEEEEE;
-    width: 33rem;
+    width: 25rem;
     margin-top: 2rem;
 }
 
@@ -117,7 +117,7 @@ body {
 #estilos {
     display: flex;
     flex-direction: column;
-    width: 75rem;
+    width: 60rem;
     margin: 2rem auto;
     text-align: center;
 }
@@ -125,7 +125,7 @@ body {
 #menuSelecao {
     display: flex;
     flex-direction: column;
-    width: 75rem;
+    width: 60rem;
 }
 
 #estilos h2 {
@@ -157,7 +157,7 @@ footer .footerContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 75rem;
+    width: 60rem;
     align-items: center;
     margin: auto;
     padding: 2rem 0rem;
@@ -185,3 +185,67 @@ footer .footerContainer{
     margin: 0.8rem 0.3rem;
 }
 
+/*-----MOBILE-----*/
+
+@media only screen and (max-width: 768px) {
+
+body{
+    overflow-x: hidden;
+}
+.carrosel {
+    display: none;
+}
+
+#menu {
+    margin-bottom: 0rem;
+}
+
+.publicacoes {
+    display: flex;
+    flex-direction: column;
+    width: 75vh;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+
+#estilos {
+    display: flex;
+    flex-direction: column;
+    width: 75vh;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#menuSelecao {
+    width: 78vh;
+}
+
+.footerContainer {
+    width: 100vw;
+}
+
+#mapa {
+    display: none;
+}
+
+#informações {
+    margin-left: 1rem;
+}
+
+#contatos{
+    font-size: 1rem;
+}
+
+#redesSociais h3 {
+    font-size: 1.3rem;
+}
+
+#redesSociais{
+    margin-top: 1.3rem;
+}
+
+}

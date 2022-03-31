@@ -1,0 +1,132 @@
+/*----RESET----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+/*----PADRÃO----*/
+body {
+    color: #777;
+}
+
+
+/*----MENU----*/
+header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      box-shadow: rgba(33, 35, 38, 0.6) 0px 10px 10px -10px;
+      height: 5rem;
+      align-items: center;
+      margin-top: 0.2rem;
+      margin-bottom: 0.8rem;
+}
+
+.menuSuperior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.menuSuperior a {
+    margin-right: 1rem;
+}
+
+.menuSuperior a:hover{
+    text-shadow: 1px 1px 2px rgb(226, 226, 226);
+}
+
+/*----CORPO----*/
+#tituloPagina {
+    width: 70vw;
+    text-align: left;
+    margin: auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+    width: 35vw;
+    margin: 1rem;
+    gap: 0.2rem;
+}
+
+.inputTexto {
+    width: 20vw;
+    margin-bottom: 0.5rem;
+}
+
+#opcoesDisponibilidade, #opcoesContato {
+    margin-bottom: 0.5rem;
+}
+
+.upload{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+
+
+#file{
+    margin-right: 0.3rem;
+}
+
+button{
+    background-color: #C2185B;
+    color: white;
+    width: 25vw;
+	border-radius:0.3rem;
+	border:1px solid #c2185c;
+	display:inline-block;
+	cursor:pointer;
+    height: 1.5rem;
+	margin: 0.5rem;
+}
+
+article {
+    width: 35vw;
+    margin-top: 0.7rem;
+}
+
+p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+
+
+/*----FOOTER----*/
+
+footer{
+    background-color: #C2185B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opcoesMenu{
+    display: flex;
+    flex-direction: row;
+}
+.menuFooter h2, .menuFooter h4{
+    color:white
+}

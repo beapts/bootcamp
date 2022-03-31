@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trabalhe Conosco</title>
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="marca" id="marcaNav">
+                <a href="shoesStore.html">
+                    <img src="img/shoes-logo-2 1.png" alt="logo da shoes">
+                </a>
+            </div>
+            <nav class="menuSuperior">
+                <a href="#"> <h3> Todos os Produtos </h3> </a>
+                <a href="#"> <h3> Coleções </h3> </a>
+                <a href="#"> <h3> Outlet </h3> </a>
+            </nav>
+        </header>
+
+        <section id="corpo">
+            <h1 id="tituloPagina"> Faça parte do nosso time</h1>
+            
+            <div class="conteudo">
+                <form action="shoesStore.html" method="post">
+                    <label for="nome">Nome</label>
+                    <input class="inputTexto" type="text" name="nome" id="nome">
+
+                    <label for="email">E-mail</label>
+                    <input class="inputTexto" type="email" name="email" id="emal">
+
+                    <label for="telefone">Telefone</label>
+                    <input class="inputTexto" type="text" name="telefone" id="telefone">
+
+                    <label>Departamentos</label>
+                    <select class="inputTexto" name="departamento" id="departamento">
+                        <option value="ti">TI</option>
+                        <option value="rh">Recursos Humanos</option>
+                        <option value="com">Comercial</option>
+                        <option value="con">Consultoria</option>
+                    </select>
+
+                    <label>Disponibilidade</label>
+                        <div id="opcoesDisponibilidade">
+                        <input type="checkbox"name="disp" value="integral" id="integral"> 
+                            <label for="integral"> Integral (8hr)</label>
+                        <input type="checkbox"name="disp" value="meio" id="meio"> 
+                            <label for="meio"> Meio-Periodo (4hrs) </label>
+                        <input type="checkbox"name="disp" value="free" id="free"> 
+                            <label for="free"> Freelancer </label>
+                        </div>
+                    
+                    <label> Qual a melhor forma para entrarmos em contato com você? </label>
+                        <div id="opcoesContato">
+                        <input type="radio" name="contato" value="ligacao" id="ligacao"> <label for="ligacao"> Ligação </label>
+                        <input type="radio" name="contato" value="mail" id="mail"> <label for="mail"> E-mail </label>
+                        <input type="radio" name="contato" value="whatsapp" id="whatsapp"> <label for="whatsapp"> Whatsapp </label>
+                        </div>
+
+                    <label>Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+                    
+                    <div class="upload">
+                    <label id="file" for="curriculo"> Curriculo </label>
+                    <input type="file" name="curriculo" id="curriculo">
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <article>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolor mollitia expedita dignissimos ex molestias id maiores, nobis adipisci perferendis earum! Doloribus perspiciatis dolor aut cumque expedita dolore ducimus distinctio?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae sequi nesciunt? Eveniet nisi laboriosam earum repudiandae ducimus voluptas maiores quae labore culpa delectus eos fugiat impedit dolor, qui voluptatem.</p>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ad animi, consectetur necessitatibus magnam eveniet commodi recusandae voluptas quia aspernatur excepturi et totam laboriosam nostrum illo culpa quod possimus cumque.</p>
+                </article>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="marcaFooter">
+                <img src="img/shoes-logo-white-3 1.png">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque dolor aliquid inventore. </p>
+            </div>
+
+            <div class="opcoesMenu">
+                <nav class="menuFooter" id="footerCategorias">
+                    <a href="#"> <h2> Categorias </h2> </a>
+                    <a href="#"> <h4> sandálias </h4> </a>
+                    <a href="#"> <h4> botas </h4> </a>
+                    <a href="#"> <h4> tênis </h4> </a>
+                    <a href="#"> <h4> oxford </h4> </a>
+                    <a href="#"> <h4> botas </h4> </a>
+                </nav>
+
+                <nav class="menuFooter" id="footerInstitucional">
+                    <a href="#"> <h2> Institucional </h2> </a>
+                    <a href="#"> <h4> sobre nós </h4> </a>
+                    <a href="#"> <h4> perguntas frequentes </h4> </a>
+                    <a href="#"> <h4> políticas de privacidade </h4> </a>
+                    <a href="#"> <h4> rastreamento de pedidos </h4> </a>
+                    <a href="#"> <h4> fale conosco </h4> </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
